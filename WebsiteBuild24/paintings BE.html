@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    body{
+        background-color:  #000000 !important;
+        color: #fffffe !important;
+    }
+    #slideshow{
+        width: 1800px;
+        height: 1200px;
+        animation-name: example;
+        animation-duration: 10s;
+    }
+    @keyframes example{
+        0% {background-image: url(BECKETT.JPG); background-size: cover}
+        25% {background-image: url(BECKETT2.JPG); background-size: cover}
+        50% {background-image: url(BECKETT3.JPG); background-size: cover}
+        75% {background-image: url(BECKETT4.JPG); background-size: cover}
+        100% {background-image: url(BECKETT5.JPG); background-size: cover}
+    }
+</style>
+
+<head>
+    <title>Buy Paintings</title>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/boottsrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <img src="BECKETT.JPG" style="height: 800px; width: 600px">
+        <a href="BECKETT.JPG" class="btn btn-info" role="button">Full Image</a>
+    </div>
+
+    <div class="container">
+        <img src="BECKETT2.JPG" style="height: 800px; width: 600px">
+        <a href="BECKETT2.JPG" class="btn btn-info" role="button">Full Image</a>
+    </div>
+
+    <div class="container">
+        <img src="BECKETT3.JPG" style="height: 800px; width: 600px">
+        <a href="BECKETT3.JPG" class="btn btn-info" role="button">Full Image</a>
+    </div>
+    <div class="container">
+        <img src="BECKETT4.JPG" style="height: 800px; width: 600px">
+        <a href="BECKETT4.JPG" class="btn btn-info" role="button">Full Image</a>
+    </div>
+    <div class="container">
+        <img src="BECKETT5.JPG" style="height: 800px; width: 600px">
+        <a href="BECKETT5.JPG" class="btn btn-info" role="button">Full Image</a>
+    </div>
+    <div id="slideshow"></div>
+    <h2>About Our Paintings</h2>
+    <h4>Our paintings are a non-traditional version of painting called pour paintings. Pour paintings are made by, you guessed it, pouring paint onto a canvas. In a more complicated sentence, you put different colors of paint in a cup. Before you pour the paint onto the canvas, you have to pour white paint on the canvas so the paint in the cup can slide around on the canvas easier. Tip-if you want to have lots of tiny bubbles on the canvas, use a blowtorch to blowtorch the paint.</h4>
+    <h2>About Us</h2>
+    <h4>This company is all about spreading a little bit of beauty into your everyday life.</h4>
+
+</body>
+</html>
